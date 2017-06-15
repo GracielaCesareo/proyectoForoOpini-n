@@ -4,15 +4,32 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title></title>
   </head>
   <body>
-
     <h1>Aqui van todos los temas</h1>
+    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+        Crear Tema
+    </button>
+    <table class="table table-striped table-responsive">
+    <thead>
+      <th>Tema</th>
+      <th>Autor</th>
+      <th>Respuestas</th>
+    </thead>
+    <tbody id="temas">
+      <tr>
+        <td>Nombre tarea</td>
+        <td>estado tarea</td>
+        <td>
+          <span class="numero">0</span>
+        </td>
+      </tr>
+    </tbody>
     
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-    
     <script src="js/functions.js"></script>
     <script src="js/main.js"></script>
     
